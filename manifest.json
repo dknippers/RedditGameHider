@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Feed Cleaner",
+  "version": "1.0",
+  "description": "Cleans the Reddit feed",
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
